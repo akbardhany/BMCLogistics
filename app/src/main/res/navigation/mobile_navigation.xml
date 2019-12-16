@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_depots">
+
+    <fragment
+        android:id="@+id/navigation_depots"
+        android:name="co.id.pelindologistics.ui.depot.DepotFragment"
+        android:label="@string/title_depot"
+        tools:layout="@layout/fragment_depot" />
+
+    <fragment
+        android:id="@+id/navigation_warehouse"
+        android:name="co.id.pelindologistics.ui.warehouse.WarehouseFragment"
+        android:label="@string/title_warehouse"
+        tools:layout="@layout/fragment_warehouse" />
+
+    <fragment
+        android:id="@+id/navigation_locations"
+        android:name="co.id.pelindologistics.ui.locations.LocationsFragment"
+        android:label="@string/title_locations"
+        tools:layout="@layout/fragment_locations" />
+</navigation>

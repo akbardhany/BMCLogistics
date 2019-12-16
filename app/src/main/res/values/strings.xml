@@ -1,0 +1,178 @@
+<resources>
+    <array name="depotImg">
+        <item>@drawable/cdc1_depot</item>
+        <item>@drawable/cdc2_depot</item>
+        <item>@drawable/cdc3_depot</item>
+        <item>@drawable/overbrengen</item>
+        <item>@drawable/banjarmasin</item>
+        <item>@drawable/icd_cdc_ccc</item>
+    </array>
+    <array name="warehouseImg">
+        <item>@drawable/cfs_warehouse_1a</item>
+    </array>
+
+    <integer-array name="depotAVRYOR">
+        <item>35</item>
+        <item>65</item>
+        <item>75</item>
+        <item>45</item>
+        <item>45</item>
+        <item>0</item>
+    </integer-array>
+    <string name="app_name">BMCLogistics</string>
+    <string name="title_home">Home</string>
+    <string name="title_depot">Depot</string>
+    <string name="title_warehouse">Warehouse</string>
+    <string name="title_locations">Locations</string>
+    <string name="code_area">Area Code</string>
+    <string name="status_container">Container Status</string>
+    <string name="capacity">Capacity</string>
+    <string name="loading_unloading">Loading Unloading Equipment</string>
+    <string name="forklift_10t">Forklift 10 Ton</string>
+    <string name="forklift_7t">Forklift 7 Ton</string>
+    <string name="forklift_3t">Forklift 3 Ton</string>
+    <string name="reachstacker">Reachstacker</string>
+    <string name="sideloader">Side Loader</string>
+    <string name="services">Services</string>
+    <string name="partner">Partner</string>
+    <string name="avryr">Average YOR (%)</string>
+    <string name="status_warehouse">Warehouse Status</string>
+    <string name="info">Informations</string>
+    <string name="address">Address</string>
+    <string name="f3ton">3 TON</string>
+    <string name="f7ton">7 TON</string>
+    <string name="f10ton">10 TON</string>
+    <string name="avryrint">100</string>
+
+    <string-array name="depotName">
+        <item>CDC 1 DEPOT</item>
+        <item>CDC 2 DEPOT</item>
+        <item>CDC 3 DEPOT</item>
+        <item>OVERBRENGEN (PLP)</item>
+        <item>BANJARMASIN DEPOT</item>
+        <item>ICD - CDC - CCC DEPOT SURABAYA</item>
+    </string-array>
+    <string-array name="depotAreaCode">
+        <item>SUB</item>
+        <item>SUB</item>
+        <item>SUB</item>
+        <item>SUB</item>
+        <item>BDJ</item>
+        <item>SUB</item>
+    </string-array>
+    <string-array name="depotMainName">
+        <item>Depo International CDC - CCC - ICD 1</item>
+        <item>Depo International CDC - CCC - ICD 2</item>
+        <item>Depo Domestik CDC - CCC</item>
+        <item>Depo Overbrengen (PLP)</item>
+        <item>Depo Banjarmasin</item>
+        <item>ICD - CDC - CCC DEPOT SURABAYA</item>
+    </string-array>
+    <string-array name="depotStatusContainer">
+        <item>International Empty</item>
+        <item>Transit Export Container</item>
+        <item>Domestic Cargo Container</item>
+        <item>Transit Import Container</item>
+        <item>Domestic Cargo Container</item>
+        <item>International Domestic Empty Full Container</item>
+    </string-array>
+    <string-array name="depotCapacity">
+        <item>180 Teus</item>
+        <item>250 Teus</item>
+        <item>500 Teus</item>
+        <item>650 Teus</item>
+        <item>4800 Teus</item>
+        <item>2500 Teus</item>
+    </string-array>
+    <string-array name="depotAVRYORstr">
+        <item>35</item>
+        <item>65</item>
+        <item>75</item>
+        <item>45</item>
+        <item>45</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="depotServices">
+        <item>Storage\nLift On / Lift Off\nWashing\nRepair\nTrucking</item>
+        <item>Storage\nLift On / Lift Off\nStripping\nStuffing\nTrucking</item>
+        <item>Storage\nLift On / Lift Off\nStripping\nStuffing\nTrucking</item>
+        <item>Storage\nCustom\nLift On / Lift Off\nStripping\nStuffing\nTrucking\nBehandle</item>
+        <item>Storage\nLift On / Lift Off\nStripping\nStuffing\nTrucking</item>
+        <item>Storage\nReefer PTI\nRepair\nWashing\nTrucking</item>
+    </string-array>
+    <string-array name="depotPartner">
+        <item>SITC\n\nOverflow CTP</item>
+        <item>Safeway / Tjiwi Paper\nWilmar\nPT Irvan\nBintang Jasa Sentosa\nCJ Logistic</item>
+        <item>PT Caraka Tirta Perkasa</item>
+        <item>PT Terminal Petikemas Surabaya\nBea Cukai</item>
+        <item>PT Terminal Petikemas Banjarmasin</item>
+        <item>N/A</item>
+    </string-array>
+    <string-array name="depotForklift10T">
+        <item>1 Unit</item>
+        <item>2 Unit</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>4 Unit</item>
+        <item>N/A</item>
+    </string-array>
+    <string-array name="depotForklift7T">
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>1 Unit</item>
+        <item>1 Unit</item>
+        <item>N/A</item>
+        <item>2 Unit</item>
+    </string-array>
+    <string-array name="depotForklift3T">
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>1 Unit</item>
+        <item>1 Unit</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </string-array>
+    <string-array name="depotReachStacker">
+        <item>N/A</item>
+        <item>1 Unit</item>
+        <item>1 Unit</item>
+        <item>1 Unit</item>
+        <item>4 Unit</item>
+        <item>1 Unit</item>
+    </string-array>
+    <string-array name="depotSideLoader">
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>2 Unit</item>
+    </string-array>
+    <string-array name="depotAddress">
+        <item>-</item>
+        <item>Tanjung Emas 12, Perak Barat, Krembangan, Surabaya</item>
+        <item>Prapat Kurung Selatan 20, Perak Utara, Pabean Cantian, Surabaya</item>
+        <item>Tanjung Batu 1, Perak Barat, Krembangan, Surabaya</item>
+        <item>Duyung Raya, Banjarmasin Barat, Banjarmasin</item>
+        <item>Laksamana Madya Muhammad Nasir 17, Perak Barat, Krembangan, Surabaya</item>
+    </string-array>
+
+    <string-array name="warehouseName">
+        <item>CFS Warehouse</item>
+    </string-array>
+    <string-array name="warehouseAreaCode">
+        <item>SUB</item>
+    </string-array>
+    <string-array name="warehouseStatusContainer">
+        <item>Domestic Cargo Container\nInternational Cargo Container</item>
+    </string-array>
+    <string-array name="warehouseServices">
+        <item>All CFS Activities</item>
+    </string-array>
+    <string-array name="warehouseStatus">
+        <item>Joint Operation with Terminal Petikemas Surabaya</item>
+    </string-array>
+    <string-array name="warehouseAddress">
+        <item>Tanjung Mutiara No.1, Perak Barat, Kec. Krembangan, Surabaya, Jawa Timur 60177</item>
+    </string-array>
+</resources>
